@@ -1,0 +1,126 @@
+*{
+    
+    background-color: whitesmoke;
+
+    
+}
+/*background-color:#F6F6F6;*/
+.page-container{
+    position: relative;
+    min-height: 100vh;
+
+}
+.navBar {
+    background-color: rgb(237,27,46);
+    overflow: auto; 
+ 
+ }
+ 
+ .navBar button {
+     float:right;
+     color: whitesmoke;
+     text-align: center;
+     padding: 10px;
+     height: 60px;
+     font-size: 25px;
+     border: solid;
+     border-color: whitesmoke;
+     margin: 10px;
+     font-family: "Roboto", sans-serif;
+     background-color:rgb(237,27,46);
+ }
+ .navBar button:hover{
+     background-color: #6D6E70;
+ 
+ }
+ .navBar button.active{
+    background-color: #6D6E70;
+ }
+ .RedCrossImg {
+     margin: 5px;
+     background-color: rgb(237,27,46);
+ }
+ .mainHeader {
+    color: rgb(237,27,46);
+    font-size: 80px;
+    margin: 30px 150px;
+    text-align: center;
+    font-family: "Montserrat" , sans-serif;
+    border: solid;
+    font-weight: lighter;
+    border-color: black;
+    padding: 10px;
+
+}
+.Header{
+    text-align:center;
+    width: 70%;
+    margin: 30px auto;
+    font-size: 60px;
+    font-family:"Montserrat", sans-serif;
+    border: solid;
+    font-weight: lighter;
+    padding: 10px;
+    border-color: black;
+    color: rgb(237,27,46);
+
+}
+
+p {
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    width: 65%;
+    margin: 60px auto;
+    text-align: center;
+    font-family:'Helvetica', serif;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #6D6E70;
+    bottom: 0;
+    position: absolute;
+}
+.centered {
+    text-align: center;
+
+}
+
+p.title{
+    margin: 10px 50px 1px;
+
+}
+h1.bioText{
+    margin-top: 30px;
+
+}
+.contentWrap{
+    padding-bottom: 200px;
+}
+
+.photo{
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(237,27,46);
+    float: left;
+
+}
+ul, ol{
+    text-align:left;
+}
+.photoExample{
+    display:inline-block;
+    margin: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    height: 500px;
+
+}
+.parentPhoto{
+    text-align:center;
+}
